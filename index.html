@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blumenstrauß Konfigurator</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/confFlowerPics/rendered/rose/rose-rot.ico"> -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="burgermenu.js" defer></script>
+</head>
+<body>
+    <div class="whole-section-wrapper">
+        <ul class="nav-bar">
+            <li>Blumengeschäft</li>
+            <!-- <span class="hr"></span> -->
+            <li>Aktionen</li>
+            <li>Floristik</li>
+            <li>Eventfloristik</li>
+            <li>Trauerfloristik</li>
+        </ul>
+        <div class="nav-bar-button-wrapper">
+            <!-- <img class="nav-bar-button" src="assets/burgerMenuIcon/Gruppe 45.png"> -->
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="progress-bar">
+            <li><a class="progress-bar-filled" href="index.html">01</a><a href="index.html" class="red-progress">Build your Bouqet</a></li>
+            <li><a class="progress-bar-unfilled" href="contactdetails.html">02</a><a href="contactdetails.html" class="black-progress">Contact Details</a></li>
+            <li><a class="progress-bar-unfilled" href="thanks.html">03</a><a href="thanks.html" class="black-progress">Finish</a></li>
+        </ul>
+        <div class="header">
+            <div class="cart-wrapper">
+                <div class="cart-text-wrapper">
+                    <p>CART</p>
+                </div>
+                <div id="cart-box-section">       
+                    <div class="box box-round-left" id="cart-box0"></div>
+                    <div class="box" id="cart-box1"></div>
+                    <div class="box box-round-right" id="cart-box2"></div>
+                </div>
+            </div>
+            <div class="flower-placeholder-wrapper">
+                <div class="flower-placeholder">
+                    <div id="arrow-left">
+                        <img src="assets/arrowIcons/arrowLeft.png">
+                    </div>
+
+                    <div class="flower-img-cont">
+                        <img src="confFlowerPics/rendered/rose/rose-rot.png" name="slide">
+                    </div>
+
+                    <div id="arrow-right">
+                        <img src="assets/arrowIcons/arrowRight.png">
+                    </div>
+                </div>
+                <div class="flower-name-wrapper">
+                    <p id="flower-name">Rose</p>
+                </div>
+            </div>
+            <div class="add-container">
+                <input type="number"> 
+                <p>+</p>
+                <a class="button" id="add-button">ADD</a>
+                <p id="substract">-</p>
+            </div>
+            <div class="extras-colors-wrapper">
+                <div class="extras-wrapper">
+                    <div class="extras-text-wrapper">
+                        <p>EXTRAS</p>
+                    </div>
+                    <div class="extras-box-section">
+                        <div class="box">
+                        </div>
+                        <div class="box">  
+                        </div>
+                        <div class="box">               
+                        </div>  
+                    </div>
+                </div>
+                <div class="colors-wrapper">
+                    <div class="colors-text-wrapper">
+                        <p>COLORS</p>
+                    </div>
+                    <div class="colors-box-section">
+                            <div class="box" id="color-first">
+                            </div>
+                            <div class="box" id="color-second">  
+                            </div>
+                            <div class="box" id="color-third">               
+                            </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-header">
+        </div>
+        <div class="continue-button-wrapper">
+            <a class="button" href="contactdetails.html">CONTINUE</a>
+        </div>
+    </div>
+</body>
+</html>
